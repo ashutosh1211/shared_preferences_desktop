@@ -6,9 +6,10 @@ Prototype desktop implementations of
 ## Supported Platforms
 
 - [x] Windows
-- [ ] [Linux]
+- [ ] [Linux] Coming Soon
 
 ## Caveats
 
 ### Windows
-
+Implementation is based on Json file. 
+All key values are stored in json file located at %USER_PROFILE%/Documents/<file-name>.json
