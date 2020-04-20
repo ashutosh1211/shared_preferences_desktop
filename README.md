@@ -12,4 +12,4 @@ Prototype desktop implementations of
 
 ### Windows
 Implementation is based on Json file. 
-All key values are stored in json file located at %USER_PROFILE%/Documents/<file-name>.json
+All key values are stored in json file located at %USER_PROFILE%/Documents/file-name.json
