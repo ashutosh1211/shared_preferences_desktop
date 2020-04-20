@@ -1,0 +1,19 @@
+name: shared_preferences_fde
+description: desktop implementation of shared_preferences from flutter/plugins
+version: 0.0.1
+author: Ashutosh Mangalekar <flutter-os@connectionloops.com>
+homepage: https://github.com/ashutosh1211/shared_preferences_desktop
+
+flutter:
+  plugin:
+    platforms:
+      windows:
+        pluginClass: SharedPreferencesPlugin
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences_platform_interface: ^1.0.3
